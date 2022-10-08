@@ -1,0 +1,99 @@
+
+@font-face{
+  src: url(Chomsky.woff);
+  font-family: Chomsky;
+  font-weight: normal;
+
+  }
+  * {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: inter;
+    width: 80%;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+
+  
+  .all__news {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .news {
+    max-width: 500px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+
+
+  .news__title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .news__title a{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .head__text {
+    font-weight: lighter;
+    text-decoration: underline;
+    font-size:150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: Chomsky;
+    letter-spacing: 10px;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold;
+
+  }
+
+  .nav .nav-link{
+    color: #696969;
+  }
+  
+  .news__desc {
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #696969;
+  }
+
+  .news__source a{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(122, 122, 122);
+    color: #000000;
+    font-weight:bold;
+  }
+
+
+.footer {
+  text-align: center;
+  color: rgb(122, 122, 122);
+}
+
+.footer span{
+  color: #000000;
+  font-weight: bold;
+
+  padding: 15px;
+
+}
