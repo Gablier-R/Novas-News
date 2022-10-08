@@ -28,6 +28,7 @@
   }
   
   .news {
+    max-height: 800px;
     max-width: 500px;
     padding: 30px;
     border: 1px solid lightgray;
@@ -94,7 +95,9 @@
 .footer span{
   color: #000000;
   font-weight: bold;
-
   padding: 15px;
+}
 
+.footer a{
+  color: #000000;
 }
